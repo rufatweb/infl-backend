@@ -10,37 +10,37 @@ User.destroy_all
 User.create!([{
   username: "David",
   email: "david@gmail.com",
-  photographer: true,
+  title: "photographer",
   password: "123"
 },
 {
   username: "Rufat",
   email: "rufat@gmail.com",
-  influencer: true,
+  title: "photographer",
   password: "123"
 },
 {
   username: "Amy",
   email: "amy@gmail.com",
-  photographer: true,
+  title: "photographer",
   password: "123"
 },
 {
   username: "Sarah",
   email: "sarah@gmail.com",
-  influencer: true,
+  title: "influencer",
   password: "123"
 },
 {
   username: "Kevin",
   email: "kevin@gmail.com",
-  photographer: true,
+  title: "influencer",
   password: "123"
 },
 {
   username: "Adam",
   email: "adam@gmail.com",
-  influencer: true,
+  title: "influencer",
   password: "123"
 }])
 
