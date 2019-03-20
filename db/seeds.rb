@@ -11,37 +11,43 @@ User.create!([{
   username: "David",
   email: "david@gmail.com",
   title: "photographer",
-  password: "123"
+  password: "123",
+  location: "New York City, NY"
 },
 {
   username: "Rufat",
   email: "rufat@gmail.com",
   title: "photographer",
-  password: "123"
+  password: "123",
+  location: "Los Angeles, CA"
 },
 {
   username: "Amy",
   email: "amy@gmail.com",
   title: "photographer",
-  password: "123"
+  password: "123",
+  location: "New York City, NY"
 },
 {
   username: "Sarah",
   email: "sarah@gmail.com",
   title: "influencer",
-  password: "123"
+  password: "123",
+  location: "Los Angeles, CA"
 },
 {
   username: "Kevin",
   email: "kevin@gmail.com",
   title: "influencer",
-  password: "123"
+  password: "123",
+  location: "New York City, NY"
 },
 {
   username: "Adam",
   email: "adam@gmail.com",
   title: "influencer",
-  password: "123"
+  password: "123",
+  location: "Los Angeles, CA"
 }])
 
 p "Created #{User.count} users"
