@@ -7,7 +7,7 @@ Rails.application.routes.draw do
       post '/login', to: 'auth#create'
       get '/profile', to: 'users#profile'
       get '/current_user', to: "auth#show"
-      get '/users', to: 'users#index'
+      get '/api/v1/users', to: 'users#index'
     end
   end
 end
