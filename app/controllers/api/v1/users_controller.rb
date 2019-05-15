@@ -24,6 +24,6 @@ end
  private
 
  def user_params
-   params.require(:user).permit(:username, :password, :email, :title, :location, :imgUrl, :bio)
+   params.require(:user).permit(:username, :password, :email, :title, :location, :img_url, :bio)
  end
 end
